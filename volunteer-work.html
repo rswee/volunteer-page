@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Volunteer Work</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>🤝 Volunteer With Us</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="volunteer-work.html" aria-current="page">Our Work</a>
+        <a href="contact-google-form.html">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>What Our Volunteers Do</h2>
+    <p>Our volunteers dedicate their time and skills to bring positive change in the community.  
+       Here are some of the activities we focus on:</p>
+
+    <section class="grid">
+      <div class="card">
+        <img src="images/food.jpg" alt="Food Distribution" style="width:100%; border-radius:8px;">
+        <h3>🍲 Food Distribution</h3>
+        <p>Providing healthy meals to underprivileged families and individuals in need.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/teaching.jpg" alt="Teaching Kids" style="width:100%; border-radius:8px;">
+        <h3>📚 Teaching & Mentoring</h3>
+        <p>Helping children learn basic subjects and life skills through weekend classes.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/community.jpg" alt="Community Cleaning" style="width:100%; border-radius:8px;">
+        <h3>🌱 Community Cleaning</h3>
+        <p>Organizing clean-up drives to keep our neighborhoods green and safe.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Our Organization</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
